@@ -1,0 +1,14 @@
+import telebot
+from telebot import types
+import sqlite3
+
+from Dicts import participation_stage_dict, mentors_dict, lessons_dict
+from Data_Base_Crate import db, cursor, db_olympiad, cursor_olymp
+from Olympiad_list_crate import olympiad_lst, olympiad_dict
+from Start import start_message
+from Main_Button import button_message
+from Bot import bot
+from New_User_Registration import name
+from Olympiad_List_Send import send_olympiad_list
+from New_Olympiad_Registration import pick_olymp, pick_lesson, pick_participation_stage, pick_mentor
+from Correct_Chak_And_Registration_Olympiad import correct_chak_olymp, new_olymp_reg
